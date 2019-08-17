@@ -695,6 +695,8 @@ rm rel/config.exs
 rm rel/plugins/.gitignore
 ```
 
+If you get an error about `missing 'config/releases.exs'` check the steps above. Adding a `config/releases.exs` file will break the Nerves firmware build. 
+
 #### Nerves system update
 
 Elixir 1.9+ releases are only compatible with systems that contain [`erlinit ~>
